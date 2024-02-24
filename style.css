@@ -1341,57 +1341,89 @@ body{
 	Start Portfolio CSS
 ============================*/
 
+/* Testimonials Section */
+.testimonials-section {
+    padding: 80px 0;
+    background-color: #f9f9f9; /* Light background color */
+}
 
 /* Testimonials Slider */
-.portfolio-slider {
+.testimonial-slider {
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
-.single-pf {
-    text-align: center;
-}
-
-.single-pf img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 50%;
-    margin-bottom: 20px;
-	box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-}
-
-.testimonial-wrap {
-    background: #fff;
-    border-radius: 10px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+.single-testimonial {
+    position: relative;
+    max-width: 320px; /* Set maximum width */
+    width: 100%; /* Ensure responsiveness */
+    margin: 20px;
     padding: 30px;
+    background-color: #fff; /* White background */
+    border-radius: 15px;
+    box-shadow: 0 8px 15px rgba(10, 3, 3, 0.947); /* Soft shadow effect */
+    text-align: center;
+    overflow: hidden; /* Hide overflowing content */
 }
 
-.testimonial-item h3 {
+.single-testimonial:hover {
+    transform: translateY(-5px); /* Move up slightly on hover */
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15); /* Increased shadow on hover */
+}
+
+.single-testimonial img {
+    width: 100px; /* Adjust image size as needed */
+    height: 100px; /* Maintain aspect ratio */
+    border-radius: 50%; /* Circular image */
+    margin: 0 auto 20px; /* Center image and add bottom margin */
+    box-shadow: 0 4px 8px rgb(0, 0, 0); /* Subtle shadow effect */
+    transition: transform 0.3s ease; /* Smooth transition */
+}
+
+.single-testimonial:hover img {
+    transform: scale(1.1); /* Scale up image on hover */
+}
+
+.testimonial-name {
     font-size: 24px;
-    font-weight: 700;
-    margin-bottom: 10px;
-}
-
-.testimonial-item h4, .testimonial-item h5 {
-    font-size: 16px;
-    color: #888;
+    font-weight: bold;
+    color: #333; /* Dark text color */
     margin-bottom: 5px;
 }
 
-.stars {
-    margin-bottom: 20px;
-}
-
-.stars i {
-    color: #ffcc00;
-}
-
-.testimonial-item p {
+.testimonial-designation {
     font-size: 16px;
-    color: #555;
+    color: #666; /* Lighter text color */
+    margin-bottom: 15px;
 }
+
+.testimonial-stars {
+    color: #ffcc00; /* Yellow color for stars */
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+.testimonial-content {
+    font-size: 16px;
+    color: #555; /* Dark gray text color */
+    line-height: 1.6; /* Improved readability */
+}
+
+.testimonial-content:before {
+    content: '"';
+    font-size: 32px;
+    position: absolute;
+    top: -20px;
+    left: calc(50% - 16px);
+    color: #ffcc00; /* Yellow color */
+    transition: transform 0.3s ease; /* Smooth transition */
+}
+
+.single-testimonial:hover .testimonial-content:before {
+    transform: translateY(-5px); /* Move up slightly on hover */
+}
+
 
 /* Add more styling based on your design preferences */
 
@@ -1968,7 +2000,7 @@ body{
 	Start Clients CSS
 ==========================*/
 .clients{
-	background-image:url('img/client-bg.jpg');
+	background-image:url('/img/slider2\ \(1\).png');
 	background-size:cover;
 	background-position:center;
 	padding:100px 0px;
@@ -2626,7 +2658,7 @@ body{
 }
 /* Blockqoute */
 .news-single blockquote {
-	background-image: url('img/blockqoute-bg.jpg');
+	background-image: url('/img/slider2\ \(1\).png');
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
