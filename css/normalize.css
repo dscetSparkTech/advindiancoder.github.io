@@ -483,11 +483,11 @@ Preloader Area CSS
 	text-transform: capitalize;
 	margin-bottom: 24px;
 	position: relative;
-	color: #2C2D3F;
+	color: #01020b;
 }
 .section-title p{
 	font-size:15px;
-	color:#888;
+	color:#020101;
 	margin-top:15px;
 }
 /* Overlay */
@@ -501,12 +501,12 @@ Preloader Area CSS
 	top:0;
 	height:100%;
 	width:100%;
-	background:#1a76d1;
+	background:#dbdee2d7;
 	opacity:0.8;
 }
 /* Bread Crumbs */
 .breadcrumbs {
-	background-image: url('../img/bread-bg.jpg');
+	background-image: url('/img/slider2\ \(1\).png');
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -518,7 +518,7 @@ Preloader Area CSS
 	text-align:center;
 }
 .breadcrumbs h2{
-	color: #fff;
+	color: #010101;
 	text-transform:capitalize;
 	font-size: 38px;
 	font-weight: 700;
@@ -532,7 +532,7 @@ Preloader Area CSS
 .breadcrumbs ul li{
 	display: inline-block;
 	position: relative;
-	color: #fff;
+	color: #3d8ef3;
 	font-size: 15px;
 	font-weight: 500;
 	text-transform: capitalize;
@@ -541,10 +541,10 @@ Preloader Area CSS
 	margin: 0px 10px;
 	font-size: 14px;
 	font-weight: 600;
-	color:#fff;
+	color:#3d8ef3;
 }
 .breadcrumbs ul li a {
-	color: #fff;
+	color: #3d8ef3;
 	font-size: 15px;
 	font-weight: 500;
 	text-transform: capitalize;
@@ -552,7 +552,7 @@ Preloader Area CSS
 	padding:0;
 }
 .breadcrumbs ul li a:hover{
-	color:#2C2D3F;
+	color:#010104;
 }
 .breadcrumbs ul li.active a {
 	color: #fff;
@@ -576,7 +576,7 @@ Preloader Area CSS
 }
 .pagination .pagination-list li a {
 	background: #F6F7FB;
-	color: #666;
+	color: #3978f5;
 	padding: 6px 18px;
 	font-weight: 400;
 	border: 1px solid #e1e1e1;
