@@ -1,0 +1,69 @@
+/* Container Styles */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Section Styles */
+.about-section {
+    padding: 50px 0;
+}
+
+/* Content Styles */
+.about-content {
+    margin-bottom: 2px; /* Reduce the margin between content blocks */
+}
+
+.about-content h2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.about-content h3 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.about-content p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.about-content ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.about-content ul li {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 5px;
+}
+
+/* Image Styles */
+.about-content img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgb(0, 0, 0);
+}
+
+/* Video Styles */
+.about-content video {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
